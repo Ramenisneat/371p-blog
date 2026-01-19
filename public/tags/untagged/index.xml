@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Untagged on Rahul Myana</title>
+		<link>http://localhost:1313/tags/untagged/</link>
+		<description>Recent content in Untagged on Rahul Myana</description>
+		<generator>Hugo -- 0.154.5</generator>
+		<language>en-us</language>
+		<lastBuildDate>Sun, 18 Jan 2026 18:30:07 -0600</lastBuildDate>
+		<atom:link href="http://localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>CS 371p Fall 2026: Rahul Myana</title>
+			<link>http://localhost:1313/posts/blog1/</link>
+			<pubDate>Sun, 18 Jan 2026 18:30:07 -0600</pubDate><guid>http://localhost:1313/posts/blog1/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<!-- ![headshot](/headshot.jpg) -->
+<img src="/headshot.jpg" width="200" />
+<h2 id="blog-entry-no1">Blog Entry no°1<a href="#blog-entry-no1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p><strong>Hey there 👋</strong>
+I&rsquo;m Rahul. I&rsquo;m a Senior here at UT.</p>
+<p>I moved around a lot as a kid, but I&rsquo;m originally from Canada 🇨🇦.</p>
+<p>I moved to Texas around Sophmore year of Highschool where I went to Tyler Legacy HS in Tyler, Texas (200 miles east of Dallas).</p>
+<p>In highschool, I was part of the Technology Student Association where me and a couple of friends participated in the cybersecurity competitions. I had fun in that club because we were able to travel around to compete. I also liked UIL CS.
+If I hadn&rsquo;t gotten into UT, I wouldv&rsquo;e probably gone to UBC (British Columbia). That was the only Candian university I got into.</p>
+<p>If I hadn&rsquo;t gotten into CS at UT, I maybe would have gone for an engineering degree like MechE or ECE.</p>
+<p>I&rsquo;m in this class because I wanted to have more formal real world CS skills. This class advertised topics of OOP, CI/CD, building automation which I&rsquo;ve always known how to do but never in a real structured and formal manner.</p>
+<p>I&rsquo;ve used C++ before, but it has mainly been localized to Arduino/microcontroller development for work. I wouldn&rsquo;t say I know the language in the sense it was made to be used.</p>
+<p>The first few lectures are going well. There are a couple of new things i&rsquo;ve been introduced to like gtest, optionals, etc. The first project seems daunting in a sense that it&rsquo;s not just as simple as completing the coding aspect. Other than that, everything seems fine.</p>
+<p>The cold calling is a bit odd. Apparently, I was called on the second day and I didn&rsquo;t hear my name at all. I guess, I am just not used to having my name randomly called out since Highschool. It&rsquo;ll take a sec to adjust to.</p>
+<p>Something that made me happy this week is the Costco Chicken Bake, selling for $2.99.</p>
+<p><img src="/chicken.jpeg" alt="Chicki bake"></p>
+<p>My Pick of the week would be the software I used to make this blog, hugo. Its a pretty quick static site generator that can render markdown. I can use markdown pretty easily to make the content and then using a theme I can make the site function well and look pretty. I can deploy the site pretty easily using github pages workflows.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
