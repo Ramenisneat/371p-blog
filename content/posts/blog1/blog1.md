@@ -6,7 +6,7 @@ toc: true
 tags: 
   - untagged
 ---
-<img src="/headshot.jpg" width="200"/>
+<img src="../headshot.jpg" width="200"/>
 
 
 ## Blog Entry no°1
@@ -33,7 +33,7 @@ The cold calling is a bit odd. Apparently, I was called on the second day and I 
 
 Something that made me happy this week is the Costco Chicken Bake, selling for $2.99.
 
-![Chicki bake](/chicken.jpeg)
+![Chicki bake](../chicken.jpeg)
 
 
 My Pick of the week would be the software I used to make this blog, hugo. Its a pretty quick static site generator that can render markdown. I can use markdown pretty easily to make the content and then using a theme I can make the site function well and look pretty. I can deploy the site pretty easily using github pages workflows. 
