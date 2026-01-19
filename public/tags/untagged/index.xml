@@ -12,10 +12,9 @@
 		
 		<item>
 			<title>CS 371p Fall 2026: Rahul Myana</title>
-			<link>http://localhost:1313/posts/blog1/</link>
-			<pubDate>Sun, 18 Jan 2026 18:30:07 -0600</pubDate><guid>http://localhost:1313/posts/blog1/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<!-- ![headshot](/headshot.jpg) -->
-<img src="/headshot.jpg" width="200" />
+			<link>http://localhost:1313/posts/blog1/blog1/</link>
+			<pubDate>Sun, 18 Jan 2026 18:30:07 -0600</pubDate><guid>http://localhost:1313/posts/blog1/blog1/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<img src="/headshot.jpg" width="200"/>
 <h2 id="blog-entry-no1">Blog Entry no°1<a href="#blog-entry-no1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
