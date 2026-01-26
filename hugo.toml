@@ -25,3 +25,26 @@ target = 'assets/attachments'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+enableRobotsTXT = true
+
+[params]
+  footerHideThemeName = true
+  justifyContent = false
+  scrollToTop = true
+  readTime = true
+  readTimeSeparator = "🕑"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/Ramenisneat"
+
+
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
