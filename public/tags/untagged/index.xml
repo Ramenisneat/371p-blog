@@ -6,9 +6,33 @@
 		<description>Recent content in Untagged on Rahul Myana</description>
 		<generator>Hugo -- 0.155.2</generator>
 		<language>en-us</language>
-		<lastBuildDate>Sun, 15 Feb 2026 19:01:15 -0600</lastBuildDate>
+		<lastBuildDate>Sun, 01 Mar 2026 19:23:44 -0600</lastBuildDate>
 		<atom:link href="http://localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
 		
+		
+		<item>
+			<title>CS 371p Fall 2026: Rahul Myana : Blog 7</title>
+			<link>http://localhost:1313/posts/blog7/</link>
+			<pubDate>Sun, 01 Mar 2026 19:23:44 -0600</pubDate><guid>http://localhost:1313/posts/blog7/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<img src="../../headshot.jpg" width="200"/>
+<h2 id="blog-entry-no7">Blog Entry no°7<a href="#blog-entry-no7" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p><strong>What&rsquo;s up 👋</strong></p>
+<p>This weeks paper was interesting to read about. The main definition of LSP is <code>If S is of subtype T, then objects of type T should be replaceable with objects of type S without breaking the program</code>. This feels obviously to me, like &ldquo;duh, that&rsquo;s definition of a ISA relationship&rdquo;, but the counter examples really highlighted the complexity within that definition. Inheritance is more about behavior complexity rather than code reuse than I previosuly thought. From reading the paper I gathered that a subclass must not:</p>
+<ul>
+<li>Strenghten preconditions</li>
+<li>Weaken postconditions</li>
+<li>Change the meaning of class methods</li>
+</ul>
+<p>I think you could further simplify this by asking &ldquo;if swapping this subclass everywhere where the parent class is will break the program&rdquo;</p>
+<p>Regarding this weeks problem, I started to notice a trend in my solutions. Most programming questions can be solved with a Hash map/set. I used a map to simplify the problem in this one and I have also completed next week&rsquo;s problem with just using a set. I took the Information Retrieval class with Professor Mooney last semester and he would always say: &ldquo;What&rsquo;s my favorite data structure? Hashmaps!&rdquo;. I am starting to feel his enthusiasm for them as well.</p>
+<p>I think something from this week&rsquo;s lectures that was interesting was the introduction of the <code>friend</code> keyword. How it can establish a direct connection from one class to another, to access it&rsquo;s private variables. It&rsquo;s the first time I have seen this type of behavior and it&rsquo;s very strange to just allow an entire other class access ALL of the prviate variables of your class. I feel like this is a hamfisted way to allow this functionality by breaking encapsulation. I wonder if there are any CVEs that describe an attack vector using the friend keyword.</p>
+<p>My pick-of-the-week for this week is maybe using a vps. A vps is a virtual private server. It acts like a dedicated server with dedicated resources but internally its all virtualization. I picked this because I hate how cumbersome it is to communicate between devices on the UT network if you are not able to define a static IP. I&rsquo;ve created a simple DHCP router with an ESP32 to act like a local network but someone took it from me 💀. So, I think just having a vps act like proxy might be the move.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>CS 371p Fall 2026: Rahul Myana : Blog 5</title>
