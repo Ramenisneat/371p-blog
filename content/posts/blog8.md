@@ -7,6 +7,7 @@ images:
 tags: 
   - untagged
 ---
+<img src="../../headshot.jpg" width="200"/>
 
 ## Blog Entry no°8
 
