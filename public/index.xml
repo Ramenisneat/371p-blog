@@ -6,15 +6,35 @@
 		<description>Recent content on Rahul Myana</description>
 		<generator>Hugo -- 0.157.0</generator>
 		<language>en-us</language>
-		<lastBuildDate>Sun, 08 Mar 2026 20:31:15 -0500</lastBuildDate>
+		<lastBuildDate>Sun, 15 Mar 2026 16:56:07 -0500</lastBuildDate>
 		<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 		
+		
+		<item>
+			<title>CS 371p Fall 2026: Rahul Myana : Blog 9</title>
+			<link>http://localhost:1313/posts/blog9/</link>
+			<pubDate>Sun, 15 Mar 2026 16:56:07 -0500</pubDate><guid>http://localhost:1313/posts/blog9/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<img src="../../headshot.jpg" width="200"/>
+<h2 id="blog-entry-no9">Blog Entry no°9<a href="#blog-entry-no9" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p><strong>What&rsquo;s up 👋</strong></p>
+<p>I was lazy and I didn&rsquo;t show up to classes this week, so I don&rsquo;t have many thoughts on the contents that were discussed during the lectures. Looking at the notes, allocator_traits seems like a cool way to access allocator functions to add allocator functionality to your container. Still need to look into it.</p>
+<p>The project this week meant a lot to me. It may sound weird. But I have a reason. Back in CS429 (~3.5 years ago, damn), when we had a very similar malloc project. It was taught to us that a free list needed to be used and that a linked list was commonly used. But the project description was like &ldquo;This may not be the only solution, you could try other creative solutions&rdquo; or something along that lines. So, me as a budding CS freshman, was like &ldquo;wow, I have an idea of using tags to mark blocks as free or used&rdquo;. Very similar to sentinels hmmm. And it worked, kinda? It was working flawlessly and iirc the tests showed performance metrics which I bragged to my friend about. But it still didn&rsquo;t work fully? &ldquo;odd&rdquo; I thought, I literally don&rsquo;t see any reason why. It seemed like blocks tended to have breaks in the memory addresses, but I didn&rsquo;t do that. It turns out, that the implementation of sbrk that the project gave to me, PURPOSELY SOMETIMES BREAKS UP THE ADDRESSES. NORMAL SBRK DOES NOT DO THIS. BUT THIS IMPLEMENTATION DOES. MAKING MY SOLUTION NULL AND VOID. MAYBE I COULD KEEP TRACK OF OFFSETS OR SOMETHING BUT MY RAGE KNEW NO BOUNDS. I COULD NOT THINK CLEARLY AND WITH THE SUBMISSION BEING THAT NIGHT, i just gave in a previous linked list solution. I never experienced greater shame. I&rsquo;m sorry if I sound crazy, but I genuinely think back to this almost weekly. So this project, with the usage of sentinels, healed me (somewhat).</p>
+<p>Also AI is useless, like genuinely for debugging anything with more than 2 levels of logic. I felt like the allocate and deallocate methods very easy to write up (given my past encounter with sentinels&hellip;), but when it came to debugging a very strange bug that I encountered, it could not do it. It hallucinated, gave me garbage fixes and more junk. It&rsquo;s because LLMs being a textual model, cannot really represent that state of an allocator properly. So when it can&rsquo;t find a solution in this weird latent space incorrect world view it has constructed, it just imploded. Continuing to try to use AI was just gonna waste even more time, so I just ignored it and went back to the good ole days of printf debugging. felt like a farmer returning from the bourgeois vibe coding hell.</p>
+<p>My pick-of-the-week for this week is <a href="https://100r.co/site/uxn.html">uxn</a> is this weird/fun toy virtual machine implementation that has this old retro rom game sharing kind of attitude to it. The language used to create this roms are is a very simple stack-based concatative language, which is fun to make sense of.</p>
+<img src="https://100r.co/media/content/projects/uxnexplode.jpg" width="400"/>
+]]></content>
+		</item>
 		
 		<item>
 			<title>CS 371p Fall 2026: Rahul Myana : Blog 8</title>
 			<link>http://localhost:1313/posts/blog8/</link>
 			<pubDate>Sun, 08 Mar 2026 20:31:15 -0500</pubDate><guid>http://localhost:1313/posts/blog8/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h2 id="blog-entry-no8">Blog Entry no°8<a href="#blog-entry-no8" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<img src="../../headshot.jpg" width="200"/>
+<h2 id="blog-entry-no8">Blog Entry no°8<a href="#blog-entry-no8" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
